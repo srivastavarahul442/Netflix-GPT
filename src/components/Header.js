@@ -69,7 +69,7 @@ const Header = () => {
           </select>}
           <button className=" text-white bg-red-600 px-2 hover:opacity-70 rounded-lg" onClick={handleGptSearchClick}>{showGptSearch?"Homepage":"Search GPT"}</button>
           <img
-            className="w-8 mx-2 rounded-full"
+            className="w-8 mx-2 rounded-full "
             src={BG_IMAGE}
           />
           <button className=" text-white bg-red-600 px-2 hover:opacity-70 rounded-lg" onClick={handleSignOut}>Sign Out</button>
